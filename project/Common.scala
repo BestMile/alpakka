@@ -18,7 +18,6 @@ object Common extends AutoPlugin {
 
   override lazy val projectSettings =
     Dependencies.Common ++ Seq(
-    scalaVersion := "2.11.8",
     organization := "com.bestmile.akka",
     organizationName := "Lightbend Inc.",
     homepage := Some(url("https://github.com/akka/alpakka")),
